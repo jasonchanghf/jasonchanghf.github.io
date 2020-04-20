@@ -3,10 +3,11 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,500&display=swap&subset=chinese-hongkong"
-        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,500&display=swap&subset=chinese-hongkong" rel="stylesheet">
     <title>Jason Chang's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href='style.css'>
 </head>
 
@@ -18,23 +19,34 @@
         </div>
 
         <div class="topnav">
-            <a href='/desk_lamp.html'>檯燈</a>
-            <a href='/guitar_case.html'>吉他盒</a>
-            <a href='/dining_lamp.html'>掛燈</a>
+            <a href='./desk_lamp.html'>檯燈</a>
+            <a href='./guitar_case.html'>吉他盒</a>
+            <a href='./dining_lamp.html'>掛燈</a>
         </div>
-        
-        <div class="row">
-            This is my Portfolio!
-            <img src="images/11.23banner(v2).jpg">
-            
 
-            
-                        
-
-
+        <div class="carousel-container">
+            <i class="fas fa-arrow-left" id="previousBtn"></i>
+            <i class="fas fa-arrow-right" id="nextBtn"></i>
+            <div class="carousel-slide">
+                <div class="box" id="lastClone"><img src="./images/desk_lamp/5.jpeg" id="lastClone" alt=""></div>
+                <div class="box"><img src="./images/desk_lamp/1.jpg" alt=""></div>
+                <div class="box"><img src="./images/desk_lamp/2.jpg " alt=" "></div>
+                <div class="box"><iframe src="https://www.youtube.com/embed/KE0sxOjZFZ8"> </iframe></div>
+                <div class="box "><img src="./images/desk_lamp/3.png " alt=" "></div>
+                <div class="box "><img src="./images/desk_lamp/4.jpeg " alt=" "></div>
+                <div class="box "><img src="./images/desk_lamp/5.jpeg " alt=" "></div>
+                <div class="box " id="firstClone"><img src="./images/desk_lamp/1.jpg " id="firstClone " alt=" "></div>
+            </div>
         </div>
+
+
+
+
 
     </div>
+
+    <script src="./app.js "></script>
+
 </body>
 
 </html>
