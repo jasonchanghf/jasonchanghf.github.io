@@ -1,4 +1,7 @@
+const scroll_to = document.querySelector('.container-wrapper');
 const carouselSlide = document.querySelector('.carousel-slide');
+const title=document.querySelector('title');
+
 const carouselImages = document.querySelectorAll('.carousel-slide .box');
 //Buttons
 const previousBtn = document.querySelector('#previousBtn');
@@ -18,7 +21,6 @@ if (rect.width) {
     size = rect.right - rect.left;
 }
 
-console.log(size)
 
 
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
@@ -53,4 +55,11 @@ carouselSlide.addEventListener('transitionend', () => {
     }
 });
 
-console.log(carouselImages.length);
+if (title.innerText!='Jason Chang|Home page') {
+    setTimeout(function(){ scroll_to.scrollIntoView({block: 'center', behavior:"smooth"});
+}, 250);
+}
+
+
+console.log('hi there why are you even reading this')
+
