@@ -64,5 +64,5 @@ carouselSlide.addEventListener('transitionend', () => {
 
 
 
-console.log('hi there why are you even reading this')
+console.log('hi there why are you even reading this!XD')
 
