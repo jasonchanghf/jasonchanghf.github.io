@@ -1,12 +1,13 @@
-const scroll_to = document.querySelector('.container-wrapper');
+const scroll_to = document.querySelector('.scroll_to')
 
+console.log(scroll_to)
+setTimeout(function(){ scroll_to.scrollIntoView({block: 'center', behavior:"smooth"});
+}, 250);
 
 const carouselSlide = document.querySelector('.carousel-slide');
 const title=document.querySelector('title');
-if (title.innerText!='Jason Chang|Home page') {
-    setTimeout(function(){ scroll_to.scrollIntoView({block: 'center', behavior:"smooth"});
-}, 250);
-}
+
+
 const carouselImages = document.querySelectorAll('.carousel-slide .box');
 //Buttons
 const previousBtn = document.querySelector('#previousBtn');

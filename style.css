@@ -11,6 +11,9 @@
     
 }
 
+bold {
+    font-weight: bolder;
+}
 
 a:hover {
     text-decoration: underline;
@@ -47,7 +50,12 @@ h1 {
 h2 {
     font-weight: lighter;
 }
-
+.link_highlight {
+    font-size: 3vw;
+    background-color: white;
+    opacity: 70%;
+    color: rgb(53, 53, 53);
+}
 .header p {
     font-style: italic;
     font-size: 20px;
