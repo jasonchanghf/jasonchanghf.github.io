@@ -66,3 +66,7 @@ carouselSlide.addEventListener('transitionend', () => {
 
 console.log('hi there why are you even reading this!XD')
 
+
+const footer=document.querySelector('.footer')
+console.log(footer)
+footer.innerHTML = "<div style='width:100%; height:80%'></div><a href='./music.html'><div style='width:100%; height:20%'></div></a>"
