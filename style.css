@@ -80,6 +80,11 @@ h2, h2>* {
     align-items: center;
 }
 
+.highlighted
+{
+   color:rgb(194, 0, 0);
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 4fr 10fr 4fr;
@@ -97,12 +102,12 @@ img {
 
 .gallery1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat( 6, 1fr);
 }
 
 .gallery2 {
     display: grid;
-    grid-template-columns: repeat( 5, 1fr);
+    grid-template-columns: repeat( 8, 1fr);
 }
 
 .container-wrapper {
