@@ -102,7 +102,7 @@ img {
 
 .gallery1 {
     display: grid;
-    grid-template-columns: repeat( 6, 1fr);
+    grid-template-columns: repeat( 7, 1fr);
 }
 
 .gallery2 {
@@ -229,7 +229,7 @@ iframe {
 
 .about_me {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
