@@ -193,6 +193,17 @@ iframe {
     opacity: 1;
 }
 
+.nav1> * {
+    display: inline;   
+}
+
+.nav1> h2 {
+    background-color: rgb(247, 238, 228);
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
 .title {
     z-index: 1;
     position: absolute;
