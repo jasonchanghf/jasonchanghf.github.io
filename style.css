@@ -302,13 +302,13 @@ iframe {
     }
     #previousBtn {
         position: absolute;
-        left: 39%;
+        left: 37%;
         top: 100%;
         margin-right: 10px;
     }
     #nextBtn {
         position: absolute;
-        right: 39%;
+        right: 37%;
         top: 100%;
         margin-left: 10px;
     }
