@@ -109,7 +109,7 @@ img {
     display: grid;
     padding-left: 10vw;
     padding-right: 10vw;
-    grid-template-columns: repeat( 8, 1fr);
+    grid-template-columns: repeat( 7, 1fr);
 }
 
 .container-wrapper {
